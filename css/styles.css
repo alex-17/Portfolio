@@ -1,0 +1,67 @@
+body {
+  font-size: 16px;
+  color: #0a0a0a;
+  background-color: #f5f5f5;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: white;
+  border-radius: 0;
+  border: 0;
+}
+#nav-list a {
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background: #dbdbdb;
+}
+
+
+
+
+.Name {
+	color: #161a1e;
+	background-color: #dbdbdb;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	font-size: 110%;
+}
+
+.DescrText {
+	padding-left: 23px;
+}
+
+.go-to-top {
+    cursor: pointer;
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    opacity: 0.23;
+}
+/* Переназначаем убогие стили самого Бутстрапа */
+.go-to-top.btn-lg {
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 957px) {
+  /* Home Page */
+  #nav-list a {
+  	padding-left: 5px;
+  	padding-right: 5px;
+  font-size: 90%;
+  text-align: center;
+}
+	
+  /* End Home Page */
+}
